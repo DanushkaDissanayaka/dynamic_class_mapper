@@ -16,4 +16,4 @@ class Employee(ModelBase):
     image:str = Type(alias='_image', default_factory = PathMapper('image/employee').to_url)
 ```
 
-Read more in  [blogpost](https://github.com/user/repo/blob/branch/other_file.md)
+Read more in  [blogpost](https://medium.com/@dsjayamal/python-mapping-dictionary-to-class-attributes-1a3786f05fe5)
